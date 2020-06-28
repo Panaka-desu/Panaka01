@@ -57,9 +57,8 @@ nav {
   margin: 1rem;
   position: relative;
   top: 22%;
-
-
 }
+
   nav ul{
     display: flex;
     flex-direction: row;
