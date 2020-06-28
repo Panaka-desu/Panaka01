@@ -1,0 +1,77 @@
+/*-------------------------------
+             pc.css
+--------------------------------*/
+
+header {
+   position:relative;
+   height: 6.5rem;
+   background: white;
+   background-color:rgba(255,255,255,0.5);  /*  ヘッダーの背景色だけ透明化 */
+   border: 1px solid;
+   border-color: #f0f0f0;
+   box-shadow: 8px 8px 6px rgba(0,0,0,0.2) ;
+   top: 1rem;
+   position: sticky;   /*  ヘッダーがついてくる */
+ }
+
+  header h1{
+    letter-spacing: 1.5px;  /*  文字の間 */
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    font-size: 2rem;
+    color: #003366;
+ }
+
+ nav {
+   letter-spacing: 1px;
+   padding: 0.5rem 1rem ;
+   float : right;
+
+   margin: 1rem;
+   position: relative;
+   top: 22%;
+
+
+ }
+   nav ul{
+     display: flex;
+     flex-direction: row;
+   }
+   nav ul li{
+     margin-right: 2rem;
+   }
+   nav ul li a {
+     color: #003366;
+    font-size: 15px;
+   }
+
+   main{
+     width: 84%;
+     margin: 0 auto;
+     display: flex;
+     flex-wrap：wrap;
+     justify-content:space-between;
+     border-top-width: 1rem;
+   }
+
+     section{
+       flex: 5;
+       padding: 1rem;
+       padding-top: 5rem;
+       background: white;
+     }
+
+       article{
+         min-height: 8rem;
+         padding: 1rem;
+         margin-bottom: 1rem;
+         background: #FFF;
+         text-align: center;
+       }
+
+     aside{
+       flex: 1;
+       padding: 1rem;
+       background: white;
+     }

@@ -1,0 +1,31 @@
+/*-------------------------------
+          mobile.css
+--------------------------------*/
+
+header{
+  height: 5rem;
+}
+header h1{
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+  font-size: 1.2rem;
+}
+
+
+nav {
+  /* Do Nothing */
+}
+
+nav li {
+  width: 100%;
+}
+
+nav li:last-child {
+  border-bottom: none;
+}
+
+article, aside {
+  padding: 2rem;
+  font-size: 0.85rem;
+}
